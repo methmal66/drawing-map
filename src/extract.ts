@@ -9,7 +9,7 @@ pdf_tool.pdfToText(pdf_path, function (error, data) {
    if (error) throw error
    const re = /(-?\d+(\.\d+)?),\s*(-?\d+(\.\d+)?)/g
    const obj = {
-      coords: data
+      coordinates: data
          .match(re)
          .map((item: string) => item.replace(',', ''))
          .map((item: string) => item.split(' '))
