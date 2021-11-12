@@ -1,15 +1,15 @@
 {
-   "name": "typescript-template",
-   "description": "Simple typescript template with jest babel and eslint",
+   "name": "drawing-map",
+   "description": "Automation script to read coordinates from a pdf and draw them in a map",
    "private": false,
    "repository": {
       "type": "git",
-      "url": "https://github.com/methmal66/typescript-template"
+      "url": "https://github.com/methmal66/drawing-map"
    },
    "author": {
       "name": "Sanuja Methmal",
       "email": "methmal66@yahoo.com",
-      "url": "https://github.com/methmal66/typescript-template"
+      "url": "https://github.com/methmal66/drawing-map"
    },
    "devDependencies": {
       "@babel/core": "^7.12.10",
@@ -30,10 +30,13 @@
       "typescript": "^4.1.3"
    },
    "scripts": {
-      "start": "ts-node src/index.ts",
+      "extract": "ts-node src/extract.ts",
       "test": "jest --no-cache",
       "lint": "yarn lint:types && yarn lint:ci",
       "lint:types": "yarn tsc --noEmit -p .",
       "lint:ci": "eslint . --ext .tsx,.ts"
+   },
+   "dependencies": {
+      "pdf-to-text": "^0.0.7"
    }
 }
