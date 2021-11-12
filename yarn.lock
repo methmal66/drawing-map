@@ -1243,14 +1243,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/inquirer@^8.1.2":
-  version "8.1.2"
-  resolved "https://registry.npmjs.org/@types/inquirer/-/inquirer-8.1.2.tgz"
-  integrity sha512-TYNYd9YEb1SdEo71AJ2sSYSS22gYiLV1/UzDjGY51Tx0LuVSbY3ftFR+eOP8qjowFKvDUnC2jmQP3hLulg6y6Q==
-  dependencies:
-    "@types/through" "*"
-    rxjs "^7.2.0"
-
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.3"
   resolved "https://registry.npmjs.org/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.3.tgz"
@@ -1293,13 +1285,6 @@
   resolved "https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz"
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
 
-"@types/pdfkit@^0.11.2":
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/@types/pdfkit/-/pdfkit-0.11.2.tgz#32ac956ccf27349f66ab77fbb4e5be3399508814"
-  integrity sha512-4FS1b4ZqSdE4vrHIxpiaPbOIvELlssavpknaRRrdrRH7IgRvO6nbGeI3PEiC7vJSDfxQ8GBZwGVybqgUX4oqww==
-  dependencies:
-    "@types/node" "*"
-
 "@types/prettier@^2.0.0":
   version "2.3.2"
   resolved "https://registry.npmjs.org/@types/prettier/-/prettier-2.3.2.tgz"
@@ -1309,13 +1294,6 @@
   version "2.0.1"
   resolved "https://registry.npmjs.org/@types/stack-utils/-/stack-utils-2.0.1.tgz"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
-
-"@types/through@*":
-  version "0.0.30"
-  resolved "https://registry.npmjs.org/@types/through/-/through-0.0.30.tgz"
-  integrity sha512-FvnCJljyxhPM3gkRgWmxmDZyAQSiBQQWLI0A0VFL0K7W1oRUrPJSqNO0NvTnLkBcotdlp3lKvaT0JrnyRDkzOg==
-  dependencies:
-    "@types/node" "*"
 
 "@types/yargs-parser@*":
   version "20.2.1"
@@ -4409,13 +4387,6 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxjs@^7.2.0:
-  version "7.3.0"
-  resolved "https://registry.npmjs.org/rxjs/-/rxjs-7.3.0.tgz"
-  integrity sha512-p2yuGIg9S1epc3vrjKf6iVb3RCaAYjYskkO+jHIaV0IjOPlJop4UnodOoFb2xeNwlguqLYvGw1b1McillYb5Gw==
-  dependencies:
-    tslib "~2.1.0"
-
 safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
@@ -4885,11 +4856,6 @@ tslib@^1.8.1:
   version "1.14.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
-
-tslib@~2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz"
-  integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
 
 tsutils@^3.21.0:
   version "3.21.0"
